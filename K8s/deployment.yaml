@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
         - name: demo-app
-          image: nginx:1.25          # change this to trigger sync
+          image: nginx:1.26          # change this to trigger sync
           ports:
             - containerPort: 80
